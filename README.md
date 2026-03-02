@@ -1,2 +1,9 @@
 # Practices-for-Secure-Software-Report-Project-Two-
 Practices for Secure Software Report (Project Two)
+CS 305 Portfolio Artifact – Artemis Financial Security Project
+For this portfolio artifact, I selected my completed Practices for Secure Software Report for Artemis Financial. Artemis Financial is a consulting company that provides personalized financial planning services. The company wanted to modernize its public web application while improving the security of client financial data during transmission.
+In this project, I evaluated the software and implemented secure coding practices to address vulnerabilities related to data integrity and communication security. One key strength in my work was successfully identifying the need for checksum verification and secure communication protocols. Coding securely is critical because it protects sensitive data from tampering or interception, which directly supports a company’s stability, reputation, and customer trust.
+One of the more challenging parts of the vulnerability assessment was understanding how different layers of security work together. However, this process helped me better understand how encryption, secure transport, and static analysis tools contribute to a stronger system.
+I increased the application’s security by implementing SHA-256 checksum verification and enabling HTTPS communication. To ensure that my changes did not introduce new vulnerabilities, I used the OWASP dependency-check tool to analyze project dependencies.
+To confirm functionality and security, I tested the application manually and verified that it executed successfully with the new security features in place. Tools such as dependency-check and secure coding practices will continue to be valuable for future projects.
+From this assignment, I could show future employers my ability to evaluate vulnerabilities, implement secure coding techniques, and validate application security improvements in a real-world scenario.
